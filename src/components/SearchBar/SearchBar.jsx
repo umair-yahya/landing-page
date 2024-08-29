@@ -17,7 +17,7 @@ const SearchBar = () => {
 						className="ml-4 my-3 mt-5"
 					/>
 					<input
-						placeholder="Search for a product, GTIN, brand or category"
+						placeholder="Search for a product, gtin, brand or category"
 						className="flex-1 px-6 py-5 focus:outline-none"
 					/>
 					<div className="hidden md:flex items-center pr-1">
@@ -34,6 +34,11 @@ const SearchBar = () => {
 					label="Search"
 					className="bg-[#C90F50] text-white font-medium p-3 rounded-full text-sm md:text-base lg:text-lg w-48"
 				/>
+			</div>
+			<div className='pt-4 text-[#979796] text-[16px]'>
+				<div>Price comparison helps you save 100s of pounds on online shopping.</div>
+				<div>Start by searching for the product you want to buy and see whats the</div>
+				<div>cheapest price available online</div>
 			</div>
 		</>
 	);

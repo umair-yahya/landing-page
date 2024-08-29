@@ -13,7 +13,7 @@ const MainSection = () => {
 	}, []);
 	return (
 		<div>
-			<div className="relative py-10 px-4 md:px-8 lg:px-16 overflow-hidden md:h-[540px]"> 
+			<div className="relative py-10 px-4 md:px-8 lg:px-16 overflow-hidden md:h-[560px]"> 
 				{windowWidth > 786 ? (
 					<div className="absolute right-0 top-[90px] z-10">
 						<img src={mobile2} alt="Mobile 2" className="w-[283px] relative" />
@@ -22,7 +22,7 @@ const MainSection = () => {
 					''
 				)}
 
-				<div className="text-center z-20 mt-9">
+				<div className="text-center z-20 mt-5">
 					<span className="block text-[#1C0E0D] text-2xl md:text-3xl lg:text-4xl font-bold">
 						Compare price for over
 					</span>

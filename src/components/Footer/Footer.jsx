@@ -14,7 +14,7 @@ const Footer = () => {
 		<>
 			{windowWidth > 786 ? (
 				<div
-					className="h-[130px] bg-white w-[82%] absolute top-[510px] z-20"
+					className="h-[110px] bg-white w-[82%] absolute top-[530px] z-20"
 					style={{
 						clipPath:
 							'polygon(0px 0px, calc(96% - 44px) 0px, 100% 100%, 0px 100%)',
