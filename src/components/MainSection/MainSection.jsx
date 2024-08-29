@@ -24,7 +24,7 @@ const MainSection = () => {
 
 				<div className="text-center z-20 mt-5">
 					<span className="block text-[#1C0E0D] text-2xl md:text-3xl lg:text-4xl font-bold">
-						Compare price for over
+						Compare prices for over
 					</span>
 					<span className="block text-[#1C0E0D] text-2xl md:text-3xl lg:text-4xl font-bold">
 						5 million products sold online
