@@ -7,7 +7,10 @@ const SearchBar = () => {
 	return (
 		<>
 			<div className="flex justify-center items-center w-full mt-6 md:mt-8 lg:mt-10">
-				<div className="flex justify-center bg-white w-full md:w-3/4 lg:w-2/3 xl:w-[40%] rounded-full overflow-hidden border border-gray-300 shadow-md">
+				<div className="flex justify-center bg-white w-full md:w-3/4 lg:w-2/3 xl:w-[50%] rounded-full overflow-hidden"
+				  style={{
+					boxShadow: '0 0 10px rgba(0,0,0,0.5)',
+				  }}>
 					<HiMagnifyingGlass
 						size={24}
 						color="#9D9D9D"
@@ -29,7 +32,7 @@ const SearchBar = () => {
 			<div className="flex justify-center items-center mt-4 md:mt-6 lg:mt-8">
 				<Buttons
 					label="Search"
-					className="bg-[#C90F50] text-white font-medium p-3 rounded-full text-sm md:text-base lg:text-lg w-40"
+					className="bg-[#C90F50] text-white font-medium p-3 rounded-full text-sm md:text-base lg:text-lg w-48"
 				/>
 			</div>
 		</>
